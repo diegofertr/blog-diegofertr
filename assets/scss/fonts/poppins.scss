@@ -1,0 +1,37 @@
+/* Poppins Regular */
+@font-face {
+  font-family: "Poppins";
+  font-style: normal;
+  /* font-weight: 400; */
+  src: local("Poppins"), local("Poppins-Regular"), url(../fonts/Poppins/Poppins-Regular.ttf);
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+  font-display: swap;
+}
+/* Poppins Medium */
+@font-face {
+  font-family: "Poppins Medium";
+  font-style: normal;
+  src: local("Poppins"), local("Poppins-Medium"), url(../fonts/Poppins/Poppins-Medium.ttf);
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+  font-display: swap;
+}
+/* Poppins SemiBold */
+@font-face {
+  font-family: "Poppins SemiBold";
+  font-style: normal;
+  /* font-weight: 400; */
+  src: local("Poppins SemiBold"), local("Poppins-SemiBold"),
+  url(../fonts/Poppins/Poppins-SemiBold.ttf);
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+  font-display: swap;
+}
+/* Poppins Bold */
+@font-face {
+  font-family: "Poppins Bold";
+  font-style: normal;
+  /* font-weight: 400; */
+  src: local("Poppins Bold"), local("Poppins-Bold"),
+  url(../fonts/Poppins/Poppins-Bold.ttf);
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+  font-display: swap;
+}
