@@ -6,7 +6,7 @@
     <div class="my-8">
       <img :class="`${$store.state.darkMode ? 'border-gray-300' : 'border-gray-800'} w-56 border-2 shadow-2xl border-dashed h-56 object-cover rounded-full`" src="~/assets/images/myPic.png" alt="foto personal">
     </div>
-    <div class="text-xl mx-64 px-20 text-justify">
+    <div class="text-lg md:text-xl mx-0 md:mx-24 xl:mx-56 px-10 lg:px-20 text-justify">
       <p>
         <strong>Hola!!</strong>, me llamo <strong>Diego Fernando Ticona Ramos</strong>, tengo <strong>26 años</strong> y soy oriundo <strong>de La Paz, Bolivia</strong>. Estudié Informática en la Universidad Mayor de San Andrés obteniendo la mención de <strong>Ingeniería de Sistemas</strong>.
       </p>
