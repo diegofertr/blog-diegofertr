@@ -22,6 +22,10 @@ module.exports = {
         '3xs': '.55rem',
         '2xs': '.65rem',
         '7xl': '5rem',
+      },
+      opacity: {
+        '15': '.15',
+        '20': '.20'
       }
     }
   },

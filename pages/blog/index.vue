@@ -7,6 +7,7 @@
     <div class="mt-2 grid grid-cols-1 lg:grid-cols-2 gap-4 md:gap-8 px-5">
       <div v-for="(post, index) in posts" :key="index" class="">
         <div :class="`max-w-4xl px-10 my-4 py-6 ${$store.state.darkMode ? 'bg-black bg-opacity-75' : 'bg-white bg-opacity-75'} rounded-lg shadow-md transform duration-500 hover:-translate-y-1 hover:shadow-2xl`">
+          <img class="absolute w-64 h-auto object-cover right-0 bottom-0 mr-12 mb-10 opacity-15 transform origin-bottom-right skew-y-6 -rotate-4" :src="require(`~/assets/images/${post.img}`)" :alt="`${post.title}`">
           <div class="flex justify-between items-center">
             <!-- <span class="font-light text-gray-600">mar 10, 2019</span> -->
             <span class="font-light text-gray-600">{{ post.year }}</span>
@@ -14,7 +15,7 @@
             <span class="px-2 py-1 bg-gray-600 text-gray-100 font-bold rounded hover:bg-gray-500 text-sm md:text-base cursor-pointer">{{ post.type }}</span>
           </div>
           <div class="mt-2 text-left">
-            <nuxt-link :class="`text-xl md:text-2xl ${$store.state.darkMode ? 'text-gray-300 hover:text-gray-400' : 'text-gray-700 hover:text-gray-600'} font-bold cursor-pointer`" :to="`/blog/${post.slug}`">
+            <nuxt-link :class="`bg-opacity-100 text-xl md:text-2xl ${$store.state.darkMode ? 'text-gray-300 hover:text-gray-400' : 'text-gray-700 hover:text-gray-600'} font-bold cursor-pointer`" :to="`/blog/${post.slug}`">
               {{ post.title }}
             </nuxt-link>
             <p :class="`mt-2 text-sm md:text-base ${$store.state.darkMode ? 'text-gray-400' : 'text-gray-600'}`">
