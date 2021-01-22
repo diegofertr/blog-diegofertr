@@ -17,6 +17,12 @@ module.exports = {
         poppinsSemiBold: ['Poppins SemiBold'],
         poppinsBold: ['Poppins Bold'],
       },
+      fontSize: {
+        '4xs': '.45rem',
+        '3xs': '.55rem',
+        '2xs': '.65rem',
+        '7xl': '5rem',
+      }
     }
   },
   variants: {},

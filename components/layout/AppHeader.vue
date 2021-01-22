@@ -1,5 +1,5 @@
 <template>
-  <nav class="flex flex-col md:flex-row items-center justify-between space-y-3 md:space-y-0 p-8 shadow-md">
+  <nav class="flex flex-col md:flex-row items-center justify-between space-y-3 md:space-y-0 p-5 md:p-8 shadow-md">
     <!-- <div>MiLogo</div> -->
     <nuxt-link to="/">
       <!-- Mi logo -->
@@ -20,17 +20,17 @@
         </span>
       </li>
       <li>
-        <nuxt-link class="hover:text-gray-600 hover:underline p-2" to="/blog">
+        <nuxt-link class="hover:text-gray-600 hover:underline p-2 text-sm md:text-base" to="/blog">
           Blog
         </nuxt-link>
       </li>
       <li>
-        <nuxt-link class="hover:text-gray-600 hover:underline p-2" to="/projects">
+        <nuxt-link class="hover:text-gray-600 hover:underline p-2 text-sm md:text-base" to="/projects">
           Proyectos
         </nuxt-link>
       </li>
       <li>
-        <nuxt-link class="hover:text-gray-600 hover:underline p-2" to="/about">
+        <nuxt-link class="hover:text-gray-600 hover:underline p-2 text-sm md:text-base" to="/about">
           Sobre mi
         </nuxt-link>
       </li>

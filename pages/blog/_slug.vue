@@ -17,10 +17,11 @@
         <img class="w-8 padding-0 margin-0 cursor-pointer" src="~/assets/images/dom.png" alt="darkmode_icon">
       </span>
     </div>
+
     <div class="mt-10 bg-opacity-75">
       <!-- <div class="flex justify-between">
       </div> -->
-      <h1 class="text-4xl text-center mb-5 font-poppinsBold">
+      <h1 class="text-3xl md:text-4xl text-center mb-5 font-poppinsBold">
         {{ post.title }}
       </h1>
       <img class="h-40 w-full shadow-2xl rounded-md object-cover object-center opacity-50" :src="require(`~/assets/images/${post.img}`)" :alt="`${post.title}`">
